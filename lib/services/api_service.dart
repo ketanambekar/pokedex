@@ -59,7 +59,7 @@ class ApiService extends GetxService {
     }
   }
 
-  dynamic _handleError(DioError error) {
+  dynamic _handleError(DioException error) {
     String errorMessage;
 
     if (error.response != null) {

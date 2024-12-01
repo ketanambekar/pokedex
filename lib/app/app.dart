@@ -4,7 +4,7 @@ import 'package:pokedex/app/app_binding.dart';
 import 'package:pokedex/routes/app_routes.dart';
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

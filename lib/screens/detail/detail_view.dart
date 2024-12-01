@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class DetailView extends StatelessWidget {
-  const DetailView({Key? key}) : super(key: key);
+  const DetailView({super.key});
 
   @override
   Widget build(BuildContext context) {
